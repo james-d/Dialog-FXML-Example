@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="root" xmlns:fx="http://javafx.com/fxml" fx:controller="DialogTestController">
+  <center>
+    <VBox spacing="5.0">
+      <children>
+        <Label text="Enter an email address:" />
+        <TextField fx:id="emailField" onAction="#submit" />
+        <Button onAction="#submit" text="OK" />
+      </children>
+      <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+    </VBox>
+  </center>
+</BorderPane>
