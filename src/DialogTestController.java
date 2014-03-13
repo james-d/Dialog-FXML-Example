@@ -11,7 +11,7 @@ import javafx.stage.StageStyle;
 
 public class DialogTestController {
     
-    private final Pattern emailPattern = Pattern.compile("[a-zA-Z][a-zA-Z0-9_]*@[a-zA-Z][a-zA-Z0-9_]*");
+    private final Pattern emailPattern = Pattern.compile("[a-zA-Z][a-zA-Z0-9_]*@[a-zA-Z]+(\\.[a-zA-Z0-9_]+)*");
     
     @FXML
     private TextField emailField;
